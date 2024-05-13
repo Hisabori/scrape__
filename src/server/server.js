@@ -16,13 +16,13 @@ app.get('/doctors', async (req, res) => {
         const doctorList = await doctors.find({}).toArray(); // 모든 의사 정보를 배열로 반환
         res.json(doctorList);
     } catch (error) {
-        console.error('Error accessing MongoDB', error);
-        res.status(500).send('Error accessing MongoDB');
+        console.error('MongoDB 연결 설정 실패 ', error);
+        res.status(500).send('MongoDB 연결에 실패하였습니다.');
     } finally {
         await client.close(); // 요청 처리 후 연결 닫기
     }
 });
 
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+    console.log(`Server가 http://localhost:${PORT} 에서 실행 중 입니다.`);
 });
