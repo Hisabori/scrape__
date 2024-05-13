@@ -208,7 +208,7 @@
       <updated>1715314295850</updated>
       <workItem from="1715314299418" duration="3070000" />
       <workItem from="1715380735202" duration="529000" />
-      <workItem from="1715381343263" duration="721000" />
+      <workItem from="1715381343263" duration="2298000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <option name="closed" value="true" />
@@ -218,7 +218,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715381111267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initialize project using Create React App">
+      <option name="closed" value="true" />
+      <created>1715382817336</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715382817336</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initialize project using Create React App">
+      <option name="closed" value="true" />
+      <created>1715383057289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715383057289</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
